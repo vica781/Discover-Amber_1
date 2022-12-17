@@ -108,7 +108,6 @@ a:hover {
     }
 }
 
-
 /* For medium screen sizes from 950px wide and down */
 @media (max-width: 950px) {
     label.logo {
@@ -121,6 +120,20 @@ a:hover {
     }
 }
 
+/* section {
+    background: url("../css/image/amber_18.webp") no-repeat;
+    background-size: cover;
+    height: calc(100vh - 85px)
+    
+} */
 
-/* For larger to medium screens size from 1200px wide and down */
-@media (max-width: 1200px)
+#hero-image {
+    background: url(../image/hero-image.webp) no-repeat center;
+    background-size: cover;
+    height: calc(100vh - 80px);
+    
+}
+
+
+For larger to medium screens size from 1200px wide and down
+/* @media (max-width: 1200px) */
