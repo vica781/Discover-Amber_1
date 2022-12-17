@@ -25,7 +25,7 @@ label.logo {
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    line-height:85px;
+    line-height: 85px;
     padding: 0 100px;
     font-weight: bolder;
 }
@@ -50,19 +50,77 @@ nav ul li a {
     /* text-transform: uppercase; */
 }
 
-a.active,a:hover {
+a.active,
+a:hover {
     background: #ee9454;
     transition: .5s;
 }
 
 .checkbtn {
-  font-size: 30px;
-  color: #252525;
-  float: right;
-  line-height: 85px;  
-  margin-right: 40px;
-  cursor: pointer;
+    font-size: 30px;
+    color: #252525;
+    float: right;
+    line-height: 85px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* Media queries */
+
+/* For smaller screen sizes 800px and down */
+@media (max-width: 800px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #ce5e0f;
+        text-align: center;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 45px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a.active,a:hover {
+        background: none;
+        background: #ee9454;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
 }
 
 
+/* For medium screen sizes from 950px wide and down */
+@media (max-width: 950px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
 
+    nav ul li a {
+        font-size: 20px;
+    }
+}
+
+
+/* For larger to medium screens size from 1200px wide and down */
+@media (max-width: 1200px)
