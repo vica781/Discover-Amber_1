@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald&display=swap');
 
 * {
     margin: 0;
@@ -9,11 +9,12 @@
 }
 
 body {
-    font-weight: Playfair Display, serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Oswald', sans-serif;
 }
 
 nav {
-    background: #CD8049;
+    background: #e4782b;
     height: 80px;
     width: 100%;
 
@@ -23,9 +24,10 @@ label.logo {
     color: #252525;
     font-size: 40px;
     text-transform: uppercase;
-    line-height: 80px;
+    letter-spacing: 3px;
+    line-height:85px;
     padding: 0 100px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 nav ul {
@@ -35,13 +37,23 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    line-height: 80px;
+    line-height: 85px;
     margin: 0 6px;
 }
 
 nav ul li a {
     color: #252525;
-    font-size: 18px;
+    font-size: 20px;
+    padding: 7px 14px;
+    letter-spacing: 3px;
+    border-radius: 4.5px;
     /* text-transform: uppercase; */
 }
+
+a.active,a:hover {
+    background: #ee9454;
+    transition: .5s;
+}
+
+
 
