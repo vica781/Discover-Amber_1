@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap');
 
 * {
     margin: 0;
@@ -6,5 +6,24 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+}
+
+body {
+    font-weight: Playfair Display, serif;
+}
+
+nav {
+    background: #CD8049;
+    height: 80px;
+    width: 100%;
+
+}
+
+label.logo {
+    color: #252525;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
 }
 
