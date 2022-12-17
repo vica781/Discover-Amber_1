@@ -55,5 +55,14 @@ a.active,a:hover {
     transition: .5s;
 }
 
+.checkbtn {
+  font-size: 30px;
+  color: #252525;
+  float: right;
+  line-height: 85px;  
+  margin-right: 40px;
+  cursor: pointer;
+}
+
 
 
