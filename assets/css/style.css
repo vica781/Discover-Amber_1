@@ -14,7 +14,8 @@ body {
 }
 
 nav {
-    background: #e4782b;
+    background: white;
+    /* background-image: linear-gradient (180deg, #99154E, #FFC93C); */
     height: 80px;
     width: 100%;
 
@@ -38,13 +39,13 @@ nav ul {
 nav ul li {
     display: inline-block;
     line-height: 85px;
-    margin: 0 6px;
+    margin: 0 4px;
 }
 
 nav ul li a {
     color: #252525;
     font-size: 20px;
-    padding: 7px 14px;
+    padding: 2px 10px;
     letter-spacing: 3px;
     border-radius: 4.5px;
     /* text-transform: uppercase; */
@@ -52,7 +53,7 @@ nav ul li a {
 
 a.active,
 a:hover {
-    background: #ee9454;
+    background: #f19946;
     transition: .5s;
 }
 
