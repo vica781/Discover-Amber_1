@@ -130,7 +130,7 @@ a:hover {
 #hero-image {
     background: url(../image/hero-image.webp) no-repeat center;
     background-size: cover;
-    height: calc(100vh - 80px);
+    height: calc(88vh - 80px);
     
 }
 
